@@ -9,14 +9,8 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="py-5">
-        <h1>header</h1>
-    </header>
-    
+    @include('partials.header')
     @yield('content')
-
-    <footer class="py-5">
-        <h1>footer</h1>
-    </footer>
+    @include('partials.footer')
 </body>
 </html>

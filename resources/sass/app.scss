@@ -1,8 +1,69 @@
 // Fonts
-@import url('https://fonts.bunny.net/css?family=Nunito');
+@import url("https://fonts.bunny.net/css?family=Nunito");
 
 // Variables
-@import 'variables';
+@import "variables";
 
 // Bootstrap
-@import 'bootstrap/scss/bootstrap';
+@import "bootstrap/scss/bootstrap";
+
+// ####################
+
+body {
+    overflow-x: hidden;
+}
+
+.navbar-brand {
+    width: 80px;
+}
+
+.comic-thumb {
+    aspect-ratio: 1;
+    overflow: hidden;
+}
+
+.jumbo {
+    height: 45vh;
+    overflow-y: hidden;
+}
+
+.comics-section .position-absolute {
+    translate: 0 -150%;
+}
+
+.comics-nav-section {
+    z-index: 10;
+    height: 18vh;
+}
+
+.comics-nav-section img {
+    width: 40px;
+}
+
+.comics-nav-section .btn > span {
+    font-size: 0.7rem;
+}
+
+footer {
+    background-image: url(../imgs/footer-bg.jpg);
+}
+
+footer li {
+    color: rgb(170, 170, 170);
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.footer-bg-logo {
+    right: 0;
+    top: 0;
+    translate: -30% -20%;
+    z-index: 0;
+    width: 500px;
+    height: auto;
+}
+
+.socials-section {
+    z-index: 10;
+    height: 12vh;
+}
