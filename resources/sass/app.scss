@@ -17,6 +17,10 @@ body {
     width: 80px;
 }
 
+.nav-link:hover {
+    text-decoration: underline;
+}
+
 .comic-thumb {
     aspect-ratio: 1;
     overflow: hidden;
@@ -54,6 +58,10 @@ footer li {
     cursor: pointer;
 }
 
+footer li:hover {
+    text-decoration: underline;
+}
+
 .footer-bg-logo {
     right: 0;
     top: 0;
@@ -66,4 +74,8 @@ footer li {
 .socials-section {
     z-index: 10;
     height: 12vh;
+}
+
+.socials-section img {
+    cursor: pointer;
 }

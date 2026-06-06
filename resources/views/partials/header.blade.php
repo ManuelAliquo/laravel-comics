@@ -9,34 +9,34 @@
           {{-- NAV-LINKS --}}
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Page 1</a>
+              <a class="nav-link" href="{{route("comics")}}">COMICS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Page 2</a>
+              <a class="nav-link" href="{{route("other")}}">OTHER PAGE</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Page 3</a>
+              <a class="nav-link disabled" href="#">Page 3</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Page 4</a>
+              <a class="nav-link disabled" href="#">Page 4</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Page 5</a>
+              <a class="nav-link disabled" href="#">Page 5</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Page 6</a>
+              <a class="nav-link disabled" href="#">Page 6</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Page 7</a>
+              <a class="nav-link disabled" href="#">Page 7</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Page 8</a>
+              <a class="nav-link disabled" href="#">Page 8</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Page 9</a>
+              <a class="nav-link disabled" href="#">Page 9</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Page 10</a>
+              <a class="nav-link disabled" href="#">Page 10</a>
             </li>
           </ul>
         </div>
