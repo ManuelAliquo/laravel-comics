@@ -17,10 +17,7 @@
         <div class="row">
             @foreach ($comics as $comic)
                 <div class="col-2">
-                    <div class="comic-thumb"> 
-                        <img class="img-fluid" src="{{ $comic['thumb'] }}" alt="thumbnail">
-                    </div>
-                    <h5>{{ $comic["series"] }}</h5>   
+                    <x-comic-card :comic="$comic" />
                 </div>
             @endforeach
         </div>

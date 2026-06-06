@@ -1,5 +1,7 @@
 @extends('layouts.master')
 
 @section('content')
-<h1 class="text-center py-5 my-5">OTHER PAGE</h1>
+<div class="other-page bg-light position-relative d-flex align-items-center justify-content-center">
+    <h1>OTHER PAGE</h1>
+</div>
 @endsection
